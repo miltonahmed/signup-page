@@ -48,7 +48,7 @@ const SignUp = () => {
       <Container fixed>
         <Grid container spacing={2} className="signupBox">
           {/* 📄 Left Form Section */}
-          <Grid item xs={12} md={6}>
+          <Grid size={6}>
             <div className="signUp_Left">
               <h2>Sign Up</h2>
 
@@ -136,7 +136,7 @@ const SignUp = () => {
           </Grid>
 
           {/* 🖼️ Right Side Illustration/Image */}
-          <Grid item xs={12} md={6}>
+          <Grid size={6}>
             <div>
               <picture>
                 <img
